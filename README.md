@@ -1,4 +1,3 @@
-# fcc-legacy-responsive-web-design-v8-cert
 # freeCodeCamp – Legacy Responsive Web Design Certificate (v8)
 
 This repository contains all five final projects completed for the **freeCodeCamp Legacy Responsive Web Design (v8)** certification.
