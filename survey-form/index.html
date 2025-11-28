@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">  
+</head>
+<body>
+<h1 id="title">
+CodeCamp Survey 
+</h1>
+<p id="description">Help us to improve our site with your help!
+  </p>
+
+  <form id="survey-form">
+    <div class="form-group">
+    <label id="name-label" for="name">Name<input class="form-control" id="name" type="text" placeholder="Enter your Name" required="">
+      </label>
+      </div>
+
+<div class="form-group">
+  <label id="email-label" for="email">Email<input class="form-control"  id="email"type="email" placeholder="Enter your Email" required="">
+    </label>
+    </div> 
+ <div class="form-group">
+ <label id="number-label" for="number">Age<input value="age"class="form-control"  id="number" type="number" name="age"min="13" max="120" placeholder="Age" required="">
+ </label>
+ </div>
+
+ <div class="form-group">
+<label for="dropdown">Choose and Activity:</label>
+ <select class="form-control"id="dropdown" name="dropdown_1">
+
+   
+  <option name="activity"  value="gym">Gym</option>
+  <option name="activity"value="coding">Coding</option>
+</select>
+</div>
+
+<div class="form-group">
+  <p>Any comments or suggestions?</p>
+  <textarea id="comment" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+</div>
+
+<div class="form-group">
+  <p>What would be the best for the future?</p>
+<label for="bf_1">
+  <input id="bf_1" type="checkbox" name="" value="highsalary">Highsalary</label>
+
+<label for="nogmo">
+  <input id="nogmo" type="checkbox" name="NOGMO" value="nongmo">
+NON-GMO</label>
+
+
+</div>
+
+
+<div class="form-group">
+<p>Did you liked my Questions?</p>
+
+<label for="dylmq_1">
+  <input id="dylmq_1" type="radio" name="dqa"value="definitely">Definitely
+  </label>
+
+  <label for="dylmq_2">
+   <input id="dylmq_2" type="radio" name="dqa"value="maybe">Maybe</label>
+   
+   <label for="dylmq_3">
+ <input id="dylmq_3" type="radio" name="dqa"value="notsure">Not sure</label>
+</div>
+
+
+<div class="form-group">
+  <button id=submit class="submit-button" type="submit">Submit
+
+  </button>
+
+</div>
+
+  </form>
+  </body>
+
+  </html>
